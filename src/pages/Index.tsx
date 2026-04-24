@@ -146,7 +146,7 @@ export default function Index() {
               </span>
             </div>
 
-            <h1 className="font-display text-6xl md:text-7xl lg:text-8xl font-bold uppercase leading-none text-white mb-6 animate-fade-in-delay-1">
+            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold uppercase leading-none text-white mb-6 animate-fade-in-delay-1">
               ВАШЕ АВТО
               <br />
               <span className="text-red-brand">В НАДЁЖНЫХ</span>
