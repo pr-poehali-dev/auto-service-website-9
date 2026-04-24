@@ -74,13 +74,12 @@ export default function Index() {
       {/* NAV */}
       <nav className="fixed top-0 left-0 right-0 z-50 border-b border-[#1e1e1e]" style={{ background: "rgba(17,17,17,0.97)", backdropFilter: "blur(12px)" }}>
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
-          <div className="flex items-center gap-3">
-            <div className="w-8 h-8 bg-red-brand flex items-center justify-center">
-              <Icon name="Wrench" size={16} className="text-white" />
-            </div>
-            <span className="font-display text-xl font-semibold tracking-wide uppercase text-white">
-              Auto<span className="text-red-brand">Cool</span>
-            </span>
+          <div className="flex items-center">
+            <img
+              src="https://cdn.poehali.dev/projects/b77b3e1f-2369-4977-94b4-0ac08e631d28/bucket/d037b8fb-e69f-404a-bd41-bc03ca834647.jpg"
+              alt="AutoCool"
+              className="h-12 w-12 object-cover rounded-full"
+            />
           </div>
 
           <div className="hidden md:flex items-center gap-8">
@@ -487,13 +486,12 @@ export default function Index() {
       {/* FOOTER */}
       <footer className="bg-coal border-t border-[#1a1a1a] py-8">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-3">
-            <div className="w-6 h-6 bg-red-brand flex items-center justify-center">
-              <Icon name="Wrench" size={12} className="text-white" />
-            </div>
-            <span className="font-display text-base uppercase text-white tracking-wide">
-              Auto<span className="text-red-brand">Cool</span>
-            </span>
+          <div className="flex items-center">
+            <img
+              src="https://cdn.poehali.dev/projects/b77b3e1f-2369-4977-94b4-0ac08e631d28/bucket/d037b8fb-e69f-404a-bd41-bc03ca834647.jpg"
+              alt="AutoCool"
+              className="h-10 w-10 object-cover rounded-full"
+            />
           </div>
           <p className="font-body text-xs text-[#444]">© 2024 AutoCool. Все права защищены.</p>
           <div className="flex items-center gap-6">
