@@ -108,6 +108,7 @@
 
   .bg-red-brand {
     background-color: var(--red);
+    color: #111111 !important;
   }
 
   .hover\:bg-red-dark:hover {
