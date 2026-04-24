@@ -306,7 +306,7 @@ export default function Index() {
                 {[
                   { icon: "Phone", text: "+7 (930) 670-30-42" },
                   { icon: "MapPin", text: "ул. Промышленная, 14, корп. 2" },
-                  { icon: "Clock", text: "Пн–Сб: 8:00–20:00 / Вс: 9:00–17:00" },
+                  { icon: "Clock", text: "Ежедневно: 9:00–21:00" },
                 ].map((item) => (
                   <div key={item.text} className="flex items-center gap-4">
                     <div className="w-10 h-10 border border-[#333] flex items-center justify-center flex-shrink-0">
@@ -470,7 +470,7 @@ export default function Index() {
             {[
               { icon: "MapPin", title: "Адрес", lines: ["ул. Промышленная, 14, корп. 2", "Москва, 123456"] },
               { icon: "Phone", title: "Телефон", lines: ["+7 (930) 670-30-42"] },
-              { icon: "Clock", title: "Режим работы", lines: ["Пн–Сб: 8:00–20:00", "Воскресенье: 9:00–17:00"] },
+              { icon: "Clock", title: "Режим работы", lines: ["Ежедневно: 9:00–21:00", "Без выходных"] },
             ].map((block) => (
               <div key={block.title} className="border border-[#222] bg-metal p-8">
                 <div className="w-12 h-12 border border-[#333] flex items-center justify-center mb-6">
