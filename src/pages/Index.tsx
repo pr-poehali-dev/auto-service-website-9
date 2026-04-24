@@ -172,18 +172,7 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="absolute bottom-0 left-0 right-0 border-t border-[#222]" style={{ background: "rgba(17,17,17,0.95)" }}>
-          <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-1 divide-x divide-[#222]">
-            {[
-              { num: "100%", label: "Гарантия качества" },
-            ].map((stat) => (
-              <div key={stat.label} className="py-5 px-6 text-center">
-                <div className="font-display text-2xl font-bold text-red-brand">{stat.num}</div>
-                <div className="font-body text-xs text-[#666] mt-1 uppercase tracking-wide">{stat.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
+
       </section>
 
       {/* SERVICES */}
