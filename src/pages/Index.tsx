@@ -79,7 +79,7 @@ export default function Index() {
               <Icon name="Wrench" size={16} className="text-white" />
             </div>
             <span className="font-display text-xl font-semibold tracking-wide uppercase text-white">
-              Авто<span className="text-red-brand">Мастер</span>
+              Auto<span className="text-red-brand">Cool</span>
             </span>
           </div>
 
@@ -495,10 +495,10 @@ export default function Index() {
               <Icon name="Wrench" size={12} className="text-white" />
             </div>
             <span className="font-display text-base uppercase text-white tracking-wide">
-              Авто<span className="text-red-brand">Мастер</span>
+              Auto<span className="text-red-brand">Cool</span>
             </span>
           </div>
-          <p className="font-body text-xs text-[#444]">© 2024 АвтоМастер. Все права защищены.</p>
+          <p className="font-body text-xs text-[#444]">© 2024 AutoCool. Все права защищены.</p>
           <div className="flex items-center gap-6">
             {["Услуги", "Цены", "Контакты"].map((link) => (
               <span key={link} className="font-body text-xs text-[#555] hover:text-white transition-colors cursor-pointer">
