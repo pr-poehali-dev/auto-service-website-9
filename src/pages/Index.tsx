@@ -176,11 +176,8 @@ export default function Index() {
         </div>
 
         <div className="absolute bottom-0 left-0 right-0 border-t border-[#222]" style={{ background: "rgba(17,17,17,0.95)" }}>
-          <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 divide-x divide-[#222]">
+          <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-1 divide-x divide-[#222]">
             {[
-              { num: "15+", label: "Лет на рынке" },
-              { num: "8 000+", label: "Довольных клиентов" },
-              { num: "12", label: "Мастеров в команде" },
               { num: "100%", label: "Гарантия качества" },
             ].map((stat) => (
               <div key={stat.label} className="py-5 px-6 text-center">
