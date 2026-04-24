@@ -78,7 +78,7 @@ export default function Index() {
             <img
               src="https://cdn.poehali.dev/projects/b77b3e1f-2369-4977-94b4-0ac08e631d28/bucket/d037b8fb-e69f-404a-bd41-bc03ca834647.jpg"
               alt="AutoCool"
-              className="h-12 w-12 object-cover rounded-full"
+              className="h-10 object-contain"
             />
           </div>
 
@@ -490,7 +490,7 @@ export default function Index() {
             <img
               src="https://cdn.poehali.dev/projects/b77b3e1f-2369-4977-94b4-0ac08e631d28/bucket/d037b8fb-e69f-404a-bd41-bc03ca834647.jpg"
               alt="AutoCool"
-              className="h-10 w-10 object-cover rounded-full"
+              className="h-10 object-contain"
             />
           </div>
           <p className="font-body text-xs text-[#444]">© 2024 AutoCool. Все права защищены.</p>
