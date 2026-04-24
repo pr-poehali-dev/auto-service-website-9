@@ -12,11 +12,6 @@ const SERVICES = [
   { icon: "Flame", title: "Двигатель", desc: "Капитальный ремонт, замена запчастей", price: "от 5 000 ₽" },
 ];
 
-const MASTERS = [
-  { name: "Алексей Громов", role: "Старший механик", exp: "15 лет опыта" },
-  { name: "Дмитрий Краев", role: "Электрик", exp: "10 лет опыта" },
-  { name: "Игорь Фёдоров", role: "Кузовщик", exp: "12 лет опыта" },
-];
 
 const PORTFOLIO = [
   { title: "Кузовной ремонт BMW 5", tag: "Кузов" },
@@ -427,33 +422,6 @@ export default function Index() {
         </div>
       </section>
 
-      {/* MASTERS */}
-      <section className="py-24 bg-coal border-t border-[#1a1a1a]">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="mb-16">
-            <div className="flex items-center gap-3 mb-4">
-              <div className="h-px w-12 bg-red-brand" />
-              <span className="font-body text-sm uppercase tracking-widest text-red-brand">Профессионалы</span>
-            </div>
-            <h2 className="font-display text-5xl font-bold uppercase text-white">Наши мастера</h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-[#1e1e1e]">
-            {MASTERS.map((master) => (
-              <div key={master.name} className="bg-coal p-8 group hover:bg-steel transition-colors">
-                <div className="w-16 h-16 bg-metal border border-[#2a2a2a] group-hover:border-red-brand flex items-center justify-center mb-6 transition-colors">
-                  <span className="font-display text-2xl font-bold text-red-brand">
-                    {master.name.split(" ").map((w) => w[0]).join("")}
-                  </span>
-                </div>
-                <h3 className="font-display text-xl font-semibold uppercase text-white mb-1">{master.name}</h3>
-                <div className="font-body text-sm text-red-brand mb-2">{master.role}</div>
-                <div className="font-body text-sm text-[#555]">{master.exp}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* CONTACTS */}
       <section id="contacts" className="py-24 bg-steel border-t border-[#1a1a1a]">
