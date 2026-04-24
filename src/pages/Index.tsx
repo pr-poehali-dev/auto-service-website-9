@@ -366,19 +366,7 @@ export default function Index() {
                       ))}
                     </select>
                   </div>
-                  <div>
-                    <label className="font-body text-xs uppercase tracking-widest text-[#666] block mb-2">Мастер</label>
-                    <select
-                      value={form.master}
-                      onChange={(e) => setForm({ ...form, master: e.target.value })}
-                      className="w-full bg-coal border border-[#2a2a2a] text-white font-body text-sm px-4 py-3 focus:outline-none focus:border-red-brand transition-colors appearance-none cursor-pointer"
-                    >
-                      <option value="">Любой свободный мастер</option>
-                      {MASTERS.map((m) => (
-                        <option key={m.name} value={m.name}>{m.name} — {m.role}</option>
-                      ))}
-                    </select>
-                  </div>
+
                   <div className="grid grid-cols-2 gap-4">
                     <div>
                       <label className="font-body text-xs uppercase tracking-widest text-[#666] block mb-2">Дата</label>
