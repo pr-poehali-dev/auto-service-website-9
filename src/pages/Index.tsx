@@ -155,7 +155,7 @@ export default function Index() {
             </h1>
 
             <p className="font-body text-lg text-[#aaa] mb-10 leading-relaxed animate-fade-in-delay-2 max-w-xl">
-              Более 15 лет опыта. Сертифицированные мастера. Гарантия на все виды работ. Современное оборудование европейского класса.
+              Сертифицированные мастера. Гарантия на все виды работ. Современное оборудование европейского класса.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-delay-3">
