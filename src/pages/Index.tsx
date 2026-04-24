@@ -305,7 +305,7 @@ export default function Index() {
               <div className="space-y-6">
                 {[
                   { icon: "Phone", text: "+7 (930) 670-30-42" },
-                  { icon: "MapPin", text: "ул. Промышленная, 14, корп. 2" },
+                  { icon: "MapPin", text: "г. Бор, ул. Толстого, д. 2" },
                   { icon: "Clock", text: "Ежедневно: 9:00–21:00" },
                 ].map((item) => (
                   <div key={item.text} className="flex items-center gap-4">
@@ -468,7 +468,7 @@ export default function Index() {
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {[
-              { icon: "MapPin", title: "Адрес", lines: ["ул. Промышленная, 14, корп. 2", "Москва, 123456"] },
+              { icon: "MapPin", title: "Адрес", lines: ["ул. Толстого, д. 2", "г. Бор"] },
               { icon: "Phone", title: "Телефон", lines: ["+7 (930) 670-30-42"] },
               { icon: "Clock", title: "Режим работы", lines: ["Ежедневно: 9:00–21:00", "Без выходных"] },
             ].map((block) => (
