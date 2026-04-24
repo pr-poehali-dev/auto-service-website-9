@@ -158,12 +158,12 @@ export default function Index() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-delay-3">
-              <button
-                onClick={() => scrollTo("#booking")}
-                className="bg-red-brand hover:bg-red-dark text-white font-display text-base uppercase tracking-wider px-8 py-4 transition-colors"
+              <a
+                href="tel:89306703042"
+                className="bg-red-brand hover:bg-red-dark font-display text-base uppercase tracking-wider px-8 py-4 transition-colors text-center"
               >
-                Записаться онлайн
-              </button>
+                Позвонить
+              </a>
               <button
                 onClick={() => scrollTo("#services")}
                 className="border border-[#444] hover:border-white text-white font-display text-base uppercase tracking-wider px-8 py-4 transition-colors"
