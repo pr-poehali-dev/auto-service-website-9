@@ -74,12 +74,15 @@ export default function Index() {
       {/* NAV */}
       <nav className="fixed top-0 left-0 right-0 z-50 border-b border-[#1e1e1e]" style={{ background: "rgba(17,17,17,0.97)", backdropFilter: "blur(12px)" }}>
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
-          <div className="flex items-center">
+          <div className="flex items-center gap-3">
             <img
               src="https://cdn.poehali.dev/projects/b77b3e1f-2369-4977-94b4-0ac08e631d28/bucket/d037b8fb-e69f-404a-bd41-bc03ca834647.jpg"
               alt="AutoCool"
               className="h-10 object-contain"
             />
+            <span className="font-display text-xl font-semibold tracking-wide uppercase text-white">
+              Auto<span className="text-red-brand">Cool</span>
+            </span>
           </div>
 
           <div className="hidden md:flex items-center gap-8">
