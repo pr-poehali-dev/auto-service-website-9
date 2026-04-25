@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Icon from "@/components/ui/icon";
 
-const HERO_IMAGE = "https://cdn.poehali.dev/projects/b77b3e1f-2369-4977-94b4-0ac08e631d28/bucket/3d149b32-cfa2-4aa1-9790-9aa0fec0924d.png";
+const HERO_IMAGE = "https://cdn.poehali.dev/projects/b77b3e1f-2369-4977-94b4-0ac08e631d28/files/5d0c650c-a830-4eda-b91a-eafff4949b45.jpg";
 
 const SERVICES = [
   { icon: "Wrench", title: "Диагностика", desc: "Компьютерная диагностика всех систем автомобиля", price: "от 500 ₽" },
